@@ -1,0 +1,128 @@
+/* Uniblox Store — Stationery-inspired design system */
+
+:root {
+  /* Core palette */
+  --color-bg: #fafaf7;
+  --color-surface: #ffffff;
+  --color-primary: #7c9d96;
+  --color-primary-hover: #6a8a83;
+  --color-secondary: #b7a7d6;
+  --color-secondary-hover: #a394c9;
+  --color-accent: #e8dccf;
+  --color-accent-deep: #d4c4b0;
+  --color-blue-muted: #9bb5c4;
+  --color-success: #7c9d96;
+  --color-success-deep: #5f827c;
+  --color-danger: #c97b7b;
+  --color-warning: #c9a86c;
+
+  --color-text: #1f2937;
+  --color-muted: #6b7280;
+  --color-border: #e8e6e1;
+  --color-border-light: #f3f1ec;
+
+  /* Semantic aliases */
+  --color-card: var(--color-surface);
+  --color-bg-subtle: #f5f3ef;
+  --color-bg-warm: #f0ebe3;
+
+  /* RGB for alpha overlays */
+  --rgb-primary: 124, 157, 150;
+  --rgb-secondary: 183, 167, 214;
+  --rgb-accent: 232, 220, 207;
+  --rgb-blue: 155, 181, 196;
+  --rgb-text: 31, 41, 55;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #7c9d96 0%, #8fad9f 50%, #9bb5a8 100%);
+  --gradient-secondary: linear-gradient(135deg, #b7a7d6 0%, #c9bddf 100%);
+  --gradient-accent: linear-gradient(135deg, #7c9d96 0%, #b7a7d6 100%);
+  --gradient-warm: linear-gradient(160deg, #fafaf7 0%, #f5f0e8 45%, #efe8f5 100%);
+  --gradient-card-shine: linear-gradient(
+    145deg,
+    rgba(var(--rgb-accent), 0.65) 0%,
+    rgba(var(--rgb-secondary), 0.2) 55%,
+    rgba(var(--rgb-primary), 0.12) 100%
+  );
+  --gradient-mesh: radial-gradient(
+      ellipse 70% 55% at 8% -5%,
+      rgba(var(--rgb-secondary), 0.14),
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 50% 45% at 95% 5%,
+      rgba(var(--rgb-blue), 0.1),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse 40% 35% at 50% 100%,
+      rgba(var(--rgb-primary), 0.08),
+      transparent 45%
+    );
+
+  /* Typography */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: clamp(1.75rem, 4vw, 2.25rem);
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.6;
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-wide: 0.04em;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Radius (14–18px) */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(var(--rgb-text), 0.04);
+  --shadow-sm: 0 2px 8px rgba(var(--rgb-text), 0.05), 0 1px 2px rgba(var(--rgb-text), 0.03);
+  --shadow-md: 0 8px 24px rgba(var(--rgb-text), 0.06), 0 2px 6px rgba(var(--rgb-text), 0.04);
+  --shadow-lg: 0 16px 40px rgba(var(--rgb-text), 0.08), 0 4px 12px rgba(var(--rgb-text), 0.04);
+  --shadow-glow: 0 0 0 1px rgba(var(--rgb-primary), 0.12),
+    0 6px 20px rgba(var(--rgb-primary), 0.18);
+  --shadow-glass: 0 8px 32px rgba(var(--rgb-text), 0.06);
+
+  /* Motion */
+  --transition-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --navbar-height: 72px;
+  --content-max-width: 1180px;
+
+  /* Bootstrap overrides */
+  --bs-primary: #7c9d96;
+  --bs-primary-rgb: 124, 157, 150;
+  --bs-success: #7c9d96;
+  --bs-success-rgb: 124, 157, 150;
+  --bs-body-bg: #fafaf7;
+  --bs-body-color: #1f2937;
+  --bs-border-color: #e8e6e1;
+  --bs-border-radius: 14px;
+  --bs-border-radius-lg: 18px;
+  --bs-font-sans-serif: var(--font-sans);
+}
