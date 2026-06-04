@@ -1,4 +1,4 @@
-# Uniblox Store — Take-Home Assignment
+# Uniblox Store
 
 A small e-commerce demo with an **Express + TypeScript** API (in-memory persistence) and a **React + Bootstrap 5** storefront. Supports cart checkout, nth-order coupon generation, product-scoped discount codes, admin analytics, and order fulfillment status.
 
