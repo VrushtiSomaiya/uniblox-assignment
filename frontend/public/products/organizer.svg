@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Desk Organizer">
+  <rect width="400" height="300" fill="#f1f5f4"/>
+  <rect x="100" y="120" width="200" height="100" rx="10" fill="#7c9d96" opacity="0.35"/>
+  <rect x="115" y="90" width="50" height="50" rx="6" fill="#e8e6e1"/>
+  <rect x="175" y="90" width="50" height="50" rx="6" fill="#e8e6e1"/>
+  <rect x="235" y="90" width="50" height="50" rx="6" fill="#e8e6e1"/>
+</svg>

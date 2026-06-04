@@ -65,6 +65,7 @@ export class CheckoutService {
     this.orderRepository.create(order);
     this.cartService.clearCart(cart.id);
 
+    // Nth-order rule: every 3rd checkout (by default) mints a new cart-wide coupon for the customer.
     const orderNumber = this.sequenceRepository.nextOrderNumber();
     const generatedCoupon = this.discountService.generateCouponForOrder(orderNumber);
 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ceramic Mug">
+  <rect width="400" height="300" fill="#f8faf7"/>
+  <rect x="140" y="80" width="120" height="140" rx="12" fill="#e8dccf"/>
+  <path d="M260 100 Q310 100 310 150 Q310 200 260 200" fill="none" stroke="#e8dccf" stroke-width="14"/>
+  <ellipse cx="200" cy="80" rx="60" ry="12" fill="#d4c4b0"/>
+</svg>

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { getErrorMessage, getProducts } from "../api/client";
-import { IconPackage } from "../components/Icons";
 import { LoadingState } from "../components/LoadingState";
 import { PageHeader } from "../components/PageHeader";
 import { useCart } from "../context/CartContext";
@@ -59,9 +58,12 @@ export const ProductsPage = () => {
           <div className="col-sm-6 col-lg-4" key={product.id}>
             <article className="app-card product-card h-100 d-flex flex-column">
               <div className="product-card__media">
-                <div className="product-card__icon" aria-hidden>
-                  <IconPackage size={28} />
-                </div>
+                <img
+                  src={product.imageUrl}
+                  alt=""
+                  className="product-card__image"
+                  loading="lazy"
+                />
               </div>
               <div className="product-card__body d-flex flex-column flex-grow-1">
                 <h2 className="product-card__title">{product.name}</h2>

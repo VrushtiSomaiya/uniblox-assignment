@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Leather Notebook">
+  <rect width="400" height="300" fill="#f0ebe3"/>
+  <rect x="120" y="50" width="160" height="200" rx="8" fill="#8b7355"/>
+  <rect x="128" y="58" width="144" height="184" rx="4" fill="#faf8f5"/>
+  <line x1="150" y1="90" x2="250" y2="90" stroke="#e8dccf" stroke-width="3"/>
+  <line x1="150" y1="120" x2="240" y2="120" stroke="#e8dccf" stroke-width="3"/>
+  <line x1="150" y1="150" x2="230" y2="150" stroke="#e8dccf" stroke-width="3"/>
+</svg>

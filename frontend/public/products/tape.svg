@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Washi Tape Set">
+  <rect width="400" height="300" fill="#faf8f5"/>
+  <circle cx="160" cy="150" r="55" fill="#b7a7d6" opacity="0.7"/>
+  <circle cx="220" cy="140" r="50" fill="#7c9d96" opacity="0.6"/>
+  <circle cx="200" cy="180" r="48" fill="#e8dccf"/>
+  <ellipse cx="200" cy="150" rx="90" ry="25" fill="none" stroke="#d4c4b0" stroke-width="2" stroke-dasharray="8 6"/>
+</svg>

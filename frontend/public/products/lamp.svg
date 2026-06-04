@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="LED Desk Lamp">
+  <rect width="400" height="300" fill="#eef2f5"/>
+  <rect x="185" y="200" width="30" height="60" fill="#94a3b8"/>
+  <ellipse cx="200" cy="200" rx="50" ry="10" fill="#cbd5e1"/>
+  <path d="M120 200 Q200 40 280 200 Z" fill="#f5f0e8" stroke="#e8dccf" stroke-width="4"/>
+  <ellipse cx="200" cy="90" rx="40" ry="20" fill="#fff9e6" opacity="0.9"/>
+</svg>
